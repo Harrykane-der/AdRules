@@ -1,0 +1,72 @@
+[Adblock Plus 2.0]
+! Title: AdRules AdBlock List Lite 
+! Homepage: https://github.com/Cats-Team/AdRules
+! Powered by Cats-Team & Upstream Authors
+! Expires: 1 day (update frequency)
+! Description: Lite version of the AdRules AdBlock List, optimized for mobile devices.
+! License: Inherits upstream licenses (GPL-3.0, CC BY-SA 4.0, etc.)
+! Upstream Sources: https://github.com/Cats-Team/AdRules/blob/script/Source.md
+! Version: 2026-09-07 03:48:18(GMT+8)
+! Total count: 62
+#189
+@@||api.bilibili.com/*^$removeparam
+@@||ccm*.res.meizu.com/fileserver/operation/ad/img/*.png
+@@||i.snssdk.com/bds^$app=com.sup.android.superb
+@@||local.adguard.org^
+@@||pan.baidu.com/$removeparam,domain=pan.baidu.com
+@@||safe.zhanhuo.com^$domain=safe.zhanhuo.com
+@@||vali.cp*.ott.cibntv.net^$domain=m.youku.com,third-party
+@@||www.msn.cn/spartan/mmx^
+@@||yyfweb.postar.cn^
+bilibili.com#@#.bili-dialog-m
+bilibili.com#@#.btn-ctnr
+cjcx.neea.edu.cn#@#[style="visibility: visible; display: block;"]
+mydrivers.com#@#.baidu, a[href^=http][target=_blank]
+ruanyifeng.com#@#a[href*=".apeclass.com"]
+||*/vhot2.qqvideo.tc.qq.com^
+||ads*-normal*.zijieapi.com^
+||api.psy-1.com/cosleep/newborn/ad^
+||api.psy-1.com/cosleep/newborn/vips/picks^
+||api2.coolapk.com/v6/feed/detail$replace=/"_ids":\[.*?]\,"":\[.*?]\,/ /
+||api2.coolapk.com/v6/feed/detail$replace=/\,"":{.*}/}}/
+||api2.coolapk.com/v6/main/indexV8$replace=/{"entityType":"card"\,"entityTemplate":"listCard".*?}"}\,/ / 
+||api2.coolapk.com/v6/main/init$replace=/{"id":1170.*?}\,/ /
+||api2.coolapk.com/v6/page/dataList$replace=/{"entityType":"card"\,"entityTemplate":"apkImageCard".*?\\u0022}"}\,/ /
+||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
+||coolapk.com/v6/feed/detail?$replace=/extra_entities//
+||coolapk.com/v6/feed/detail?$replace=/extra_title//
+||coolapk.com/v6/feed/detail?$replace=/include_goods//
+||coolapk.com/v6/main/indexV8?$replace=/\,\{.*?"entityType": "card"\,"entityTemplate":"apkImageCard".*?\}\,\{"id"/,{"id"/
+||coolapk.com/v6/main/indexV8?$replace=/\{"entityType":"card"\,"entityTemplate":"listCard".*?\}\,\{"id/{"id/
+||coolapk.com/v6/main/indexV?$replace=/extra_entities//
+||coolapk.com/v6/main/init?$replace=/\{"data":\[\{"entityType":"card"\,"entityTemplate":"textCard"\,"title":"\\u70ed\\u95e8\\u641c\\u7d22".*?\}\,\{"entityType":"card"\,"entityTemplate":"configCard"/\{"data":[\{"entityType":"card"\,"entityTemplate":"configCard"/
+||coolapk.com/v6/page/dataList?$replace=/extra_entities//
+||coolapk.com/v6/search?type=hotSearch$replace=/\{"data":\[.*\]/{"data":[]/
+||ctobsnssdk.com^
+||fvedio.kuwo.cn^$app=cn.kuwo.player
+||g.koowo.com^$app=cn.kuwo.player
+||gdfp.gifshow.com^
+||home.mi.com/cgi-op/api/v1/recommendation/banner^
+||httpdns.kg.qq.com^
+||lanm.huliyinzi.com^
+||media.cdn.kuwo.cn*tuijian*.json$app=cn.kuwo.player
+||ns.adobe.com^
+||p*-ad-sign.byteimg.com^
+||pangolin-sdk-toutiao-b.com^
+||pangolin-sdk-toutiao.com^
+||pangolin.snssdk.com^
+||pglstatp-toutiao.com^
+||res.psy-1.com/music/recommend^$app=com.psyone.brainmusic
+||searchrecterm.kuwo.cn^$app=cn.kuwo.player
+||soup.v.qq.com^
+||st.huliyinzi.com/ads_app_pic/^
+||swimg2.tsderen.cn^
+||tnc*.zijieapi.com^$app
+||umeng.com^
+||us.l.qq.com/exapp^
+||uty.micocc.com^
+||volceapplog.com^
+||xj-landing.gdtimg.com^
+||y.gtimg.cn/music/common//upload/kg_ad^
+||y.qq.com/music/common/upload/t_kg_activity_show^
+||yoda.kwd.inkuai.com^
