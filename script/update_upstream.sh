@@ -70,9 +70,6 @@ content_urls=(
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nosafesearch.txt"
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/social.txt"
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt"
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt"
 )
 
@@ -89,9 +86,6 @@ dns_urls=(
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nosafesearch.txt"
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/social.txt"
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt"
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt"
 )
 log_info "开始并发下载规则..."
